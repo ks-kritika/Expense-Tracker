@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<h1 id='a' > Expense Tracker</h1>
+		<h2 id='b' >Add a New Item:</h3>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+    </head>
+
+    <body>
+	<center>
+        
+		<b>Name:</b> <input type="text" size=90% name='Name' id="name" placeholder="Where was the expense made?" required /><br/><br/>
+        <b>Date:</b> <input type="date" name="Date" id="date" placeholder="dd/mm/yy" required />
+        <b>Amount:</b> <input type="number" name="Amount" id="amount" required /><br/><br/>
+        <button id='btn' onclick="addRow();">Add Expense</button><br/><br/>
+
+        <table border="1" width=70% >
+            
+            <tr>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Amount</th>
+            </tr>
+    
+        </table>
+	</center>
+    </body>
+
+</html>
